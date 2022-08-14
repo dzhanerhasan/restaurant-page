@@ -1,0 +1,33 @@
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 400px;
+    grid-gap: 25px;
+    padding: 25px;
+    background-color: red;
+}
+
+.menu-item {
+    background-color: orangered;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+.menu-item div {
+    width: 310px;
+}
+
+.menu-item div img {
+    width: 100%;
+}
+
+.menu-item h1 {
+    text-align: center;
+    min-width: 350px;
+}
